@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- <link rel="stylesheet" href="sobitia.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h1{
+            font-family: 'JetBrains Mono';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 40px;
+            display: flex;
+            color: #E6EDF3;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .create_cartochka{
+            height: 400px;
+            width: 550px;
+            margin-top: 0px;
+            background: rgb(28, 84, 129, 0.3);
+            border: 3px solid rgb(28, 84, 129, 0.3);
+            border-radius: 8px; 
+        }
+        img.mainPhoto{
+            border: 3px solid rgb(41, 146, 229);
+            border-radius: 8px; 
+            width: 750px;
+            height: 400px;
+        }
+        .littleSpan{
+            font-size: 15px;
+        }
+        .tags {
+            color: #E6EDF3;
+            display: flex;
+            align-items: center;
+            flex-direction:row;
+            flex-wrap:wrap;
+        }
+        .tags > * {
+            margin-left: 5px;
+            background: rgb(28, 84, 129, 0.3);
+            border: 3px solid rgb(28, 84, 129, 0.3);
+            border-radius: 8px;
+            font-family: 'JetBrains Mono';
+        }
+    </style>
+    <header>
+        <img class = "headerSVG" src="fsp_logo.svg" alt="SVG Image">
+        <button class = "headerButton">События</button>
+        <button class = "headerButton">Рейтинг участников</button>
+        <button class = "headerButton">Рейтинг команд</button>
+    </header>
+    <h1>Так будет выглядеть ваша страница</h1>
+    <div style="display: flex; justify-content: space-evenly;">
+        <img class="mainPhoto" src="https://www.zavodit.ru/_next/image?url=%2Fupload%2Fmedia%2Fdefault%2F0001%2F01%2Fd30fa50f27aed274dd80a299ab476a4d43f1c7d4.png&w=640&q=40">
+        <div class="create_cartochka">
+            <span>Всероссийский хакатон</span>
+            <span class="littleSpan">Дата проведения 27.04.2023 - 29.04.2023</span>
+            <div class = "tags">Метки <div>Backend</div> <div>C++</div> <div>AI/ML</div></div>
+        </div>
+    </div>
+    <!-- <div style="background: #1c548186; border:3px solid #1c5481b8;" class="rating-area">
+        <input type="radio" id="star-5" name="rating" value="5">
+        <label for="star-5" title="Оценка «5»"></label>	
+        <input type="radio" id="star-4" name="rating" value="4">
+        <label for="star-4" title="Оценка «4»"></label>    
+        <input type="radio" id="star-3" name="rating" value="3">
+        <label for="star-3" title="Оценка «3»"></label>  
+        <input type="radio" id="star-2" name="rating" value="2">
+        <label for="star-2" title="Оценка «2»"></label>    
+        <input type="radio" id="star-1" name="rating" value="1">
+        <label for="star-1" title="Оценка «1»"></label>
+    </div> -->
+</body>
+</html>

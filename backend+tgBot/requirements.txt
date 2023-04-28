@@ -1,0 +1,4 @@
+flask
+asyncpg
+asgiref
+aiogram

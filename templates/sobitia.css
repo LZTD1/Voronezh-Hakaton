@@ -1,0 +1,77 @@
+body{
+    /* display: flex;
+    font-family: 'JetBrains Mono';
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column; 
+    background: #0D1117;
+    
+}
+
+ #block2{
+    flex-direction: row;
+    flex-wrap:  wrap;
+    justify-content:center;
+    display: inline-block;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 3vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 3vw;
+    background: #1c548148;
+    color: white;
+    border: 2px solid #2992E5;
+    border-radius: 15px;
+    font-family: 'JetBrains Mono';
+ }
+ #block_container
+{
+    text-align:center;
+}
+#bloc1, #bloc2
+{
+    display:inline;
+}
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: #1C5481;
+	text-shadow: 1px 1px #1C5481;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: #D9D9D9;
+	text-shadow: 1px 1px #1C5481;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: #D9D9D9;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: #d9d9d9;
+	text-shadow: 1px 1px #1C5481;
+}
+.rate-area > label:active {
+	position: relative;
+}
